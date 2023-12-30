@@ -1,0 +1,21 @@
+link of namespace = https://www.youtube.com/watch?v=-_pAnc70vm8&list=PLI4OVrCFuY578UgX3aEEYtqhR_Ml4S-gm&index=1
+
+In Python, a namespace is a container that holds a collection of identifiers (such as variable names, function names, class names, etc.) and their corresponding objects (values, functions, classes, etc.). Namespaces are used to organize and manage the naming of objects in a Python program to avoid naming conflicts and to provide a hierarchy of identifiers.
+
+There are several types of namespaces in Python:
+
+Built-in Namespace: This namespace contains all the built-in functions, classes, and objects that are available in Python without the need for any import statements. Examples include print(), len(), int, and str. You can access these names directly without any module or package prefix.
+
+Global Namespace: This namespace includes all the names defined at the top level of a Python script or module. These names are accessible from any part of the script or module.
+
+Enclosing (Non-local) Namespace: This namespace comes into play when you have nested functions. It includes names defined in the outer or enclosing function that are accessible to the inner function. Inner functions can access variables from the enclosing namespace.
+
+Local Namespace: This namespace is specific to a particular function or code block. It contains names defined within that function or block and is only accessible within that scope.
+
+
+link of LEGB= https://www.youtube.com/watch?v=maKjA9LFHFM&list=PLI4OVrCFuY578UgX3aEEYtqhR_Ml4S-gm&index=2
+    
+Local: Names defined within the current function or code block.
+Enclosing: Names defined in an enclosing or outer function's scope.
+Global: Names defined at the top level of a module or script.
+Built-in: Names provided by Python's built-in modules.
